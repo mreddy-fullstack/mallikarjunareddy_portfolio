@@ -1,30 +1,87 @@
-.about-container {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 20px;
+/* General Section Styling */
+.about {
+  padding: 40px;
   max-width: 1200px;
   margin: auto;
-  padding: 20px;
+  border-radius: 12px;
 }
 
-.image-section img {
-  width: 300px;  /* Adjust image size */
-  height: auto;
-  border-radius: 10px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+.about-container {
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+  align-items: center;
 }
 
-.content-section {
+.about-image {
   flex: 1;
+  min-width: 250px;
+  text-align: center;
 }
 
-.content-section h2 {
-  margin-bottom: 10px;
+.about-image img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px; /* Rounded corners for image */
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.about-content {
+  flex: 2;
+  min-width: 300px;
+  padding: 30px;
+  /* background-color: #ffffff; White background for content */
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  text-align: left;
+}
+
+.about-content h2 {
   font-size: 2rem;
+  color: #333; /* Dark text color */
+  margin-bottom: 20px;
 }
 
-.content-section p {
+.about-content p {
   font-size: 1.1rem;
+  color: #555; /* Lighter text color */
   line-height: 1.6;
+  margin-bottom: 20px;
+}
+
+.about-content h3 {
+  font-size: 1.6rem;
+  color: #333;
+  margin-top: 30px;
+}
+
+.about-content ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.about-content ul li {
+  font-size: 1.1rem;
+  margin: 8px 0;
+}
+
+.about-content ul li strong {
+  color: #007BFF; /* Highlight skills with a blue color */
+}
+
+/* Responsive Design for Smaller Screens */
+@media (max-width: 768px) {
+  .about-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .about-image {
+    margin-bottom: 20px;
+  }
+
+  .about-content {
+    min-width: 100%;
+    padding: 15px;
+  }
 }

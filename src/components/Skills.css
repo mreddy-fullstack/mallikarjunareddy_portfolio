@@ -1,8 +1,16 @@
+/* General Section Styling */
 .skills {
   padding: 40px;
   max-width: 1200px;
   margin: auto;
-  text-align: center;
+  background-color: #f4f4f9;
+  border-radius: 12px;
+}
+
+.skills h2 {
+  font-size: 2rem;
+  color: #333;
+  margin-bottom: 30px;
 }
 
 .skills-container {
@@ -12,37 +20,39 @@
   flex-wrap: wrap;
 }
 
-.skills-list,
-.skills-info {
+.skills-column {
   flex: 1;
-  min-width: 300px;
+  min-width: 280px;
   padding: 20px;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
 }
 
-.skills-list h3,
-.skills-info h3 {
-  font-size: 1.5rem;
-  margin-bottom: 15px;
-}
-
-.skills-list ul {
+.skills-column ul {
   list-style-type: none;
   padding-left: 0;
 }
 
-.skills-list li {
-  font-size: 1.2rem;
-  margin: 10px 0;
-}
-
-.skills-info p {
+.skills-column li {
   font-size: 1.1rem;
-  line-height: 1.6;
+  margin: 10px 0;
+  color: #555;
 }
 
-/* Media query for smaller screens */
+.skills-column li strong {
+  color: #007BFF;
+}
+
+/* Responsive Design */
 @media (max-width: 768px) {
   .skills-container {
     flex-direction: column;
+    gap: 20px;
+  }
+
+  .skills-column {
+    min-width: 100%;
+    padding: 15px;
   }
 }
