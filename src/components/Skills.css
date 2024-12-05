@@ -3,13 +3,12 @@
   padding: 40px;
   max-width: 1200px;
   margin: auto;
-  background-color: #f4f4f9;
   border-radius: 12px;
 }
 
 .skills h2 {
   font-size: 2rem;
-  color: #333;
+  color: purple;
   margin-bottom: 30px;
 }
 
@@ -24,7 +23,6 @@
   flex: 1;
   min-width: 280px;
   padding: 20px;
-  background-color: white;
   border-radius: 8px;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
 }
@@ -37,12 +35,9 @@
 .skills-column li {
   font-size: 1.1rem;
   margin: 10px 0;
-  color: #555;
+  color:sandybrown;
 }
 
-.skills-column li strong {
-  color: #007BFF;
-}
 
 /* Responsive Design */
 @media (max-width: 768px) {
