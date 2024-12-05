@@ -1,0 +1,26 @@
+.projects {
+    margin: 20px 0;
+    padding: 20px;
+    background-color: #e3f2fd;
+    border-radius: 8px;
+  }
+  
+  .projects h2 {
+    font-size: 1.8em;
+    color: #333;
+  }
+  
+  .projects ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .projects li {
+    margin: 8px 0;
+    padding: 10px;
+    background-color: #bbdefb;
+    border-radius: 5px;
+    font-size: 1em;
+    color: #333;
+  }
+  

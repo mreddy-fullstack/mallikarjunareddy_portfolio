@@ -1,0 +1,10 @@
+.about {
+  width: 100%;
+  background-color: #f7f7f7;
+  padding: 40px 20px;
+  text-align: left;
+}
+
+.about p {
+  font-size: 1.1em;
+}
