@@ -1,19 +1,19 @@
 /* Header.css */
 .header {
-  width: 97%;
+  /* width: 100%; */
   background-color: #1abc9c; /* Header background */
   color: white;
   padding: 40px 20px;
   border-bottom: 3px solid #16a085;
   display: flex;
-  justify-content: space-between; /* Space between left and right sections */
+  justify-content: space-between; /* Aligns left and right sections to opposite ends */
   align-items: center;
-  flex-wrap: wrap; /* Wrap content on smaller screens */
 }
 
 .header-info {
-  flex: 1; /* Takes up space on the left */
+  flex: 0 1 auto;
   text-align: left;
+  margin-left: 4%; /* Moves the header-info slightly forward */
 }
 
 .header-info h1 {
@@ -28,10 +28,11 @@
 }
 
 .contact-list {
-  flex: 1; /* Takes up space on the right */
-  list-style-type: decimal; /* Ordered list numbers */
-  padding-left: 20px; /* Adds indentation for list */
-  text-align: right; /* Aligns list items to the right */
+  flex: 0 1 auto;
+  list-style-type: decimal;
+  padding: 0;
+  margin-right: 2%;
+  text-align: right;
 }
 
 .contact-list li {
@@ -47,7 +48,7 @@
 }
 
 .contact-list a:hover {
-  color: #2ecc71; /* Hover effect for links */
+  color: #2ecc71;
 }
 
 @media (max-width: 768px) {
@@ -58,10 +59,10 @@
 
   .header-info,
   .contact-list {
-    text-align: left; /* Aligns both sections centrally in mobile view */
+    text-align: center;
   }
 
   .contact-list {
-    padding-left: 0; /* Removes indentation in mobile view */
+    padding: 0;
   }
 }
