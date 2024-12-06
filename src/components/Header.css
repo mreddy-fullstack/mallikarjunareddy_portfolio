@@ -1,10 +1,67 @@
+/* Header.css */
 .header {
-  width: 100%;
+  width: 97%;
+  background-color: #1abc9c; /* Header background */
   color: white;
-  padding: 60px 0;
-  text-align: center;
+  padding: 40px 20px;
+  border-bottom: 3px solid #16a085;
+  display: flex;
+  justify-content: space-between; /* Space between left and right sections */
+  align-items: center;
+  flex-wrap: wrap; /* Wrap content on smaller screens */
 }
 
-h1 {
-  font-size: 3em;
+.header-info {
+  flex: 1; /* Takes up space on the left */
+  text-align: left;
+}
+
+.header-info h1 {
+  font-size: 2.5em;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.header-info p {
+  font-size: 1.2em;
+  color: #ecf0f1;
+}
+
+.contact-list {
+  flex: 1; /* Takes up space on the right */
+  list-style-type: decimal; /* Ordered list numbers */
+  padding-left: 20px; /* Adds indentation for list */
+  text-align: right; /* Aligns list items to the right */
+}
+
+.contact-list li {
+  margin-bottom: 10px;
+  font-size: 1em;
+  color: white;
+}
+
+.contact-list a {
+  color: #ecf0f1;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.contact-list a:hover {
+  color: #2ecc71; /* Hover effect for links */
+}
+
+@media (max-width: 768px) {
+  .header {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .header-info,
+  .contact-list {
+    text-align: left; /* Aligns both sections centrally in mobile view */
+  }
+
+  .contact-list {
+    padding-left: 0; /* Removes indentation in mobile view */
+  }
 }
