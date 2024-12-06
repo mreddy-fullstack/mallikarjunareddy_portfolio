@@ -6,18 +6,13 @@ const About = () => {
   return (
     <section className="about">
       <div className="about-container">
-        {/* Left side: Image */}
-        <div className="about-image">
-          <img src={myImage} alt="About Me" />
-        </div>
-
-        {/* Right side: Content */}
+        {/* Left side: Content */}
         <div className="about-content">
           <h2>About Me</h2>
           <p>
             I am a passionate and skilled <strong>Full Stack Developer</strong> with experience in both front-end and back-end development. I specialize in creating dynamic, responsive, and user-friendly web applications. I thrive in building intuitive user interfaces and robust back-end systems.
           </p>
-          
+
           {/* Skills Section */}
           <h3>Skills</h3>
           <ul>
@@ -31,6 +26,11 @@ const About = () => {
             <li><strong>Postman</strong> - API testing tool</li>
             <li><strong>Git/GitHub</strong> - Version control for code collaboration</li>
           </ul>
+        </div>
+
+        {/* Right side: Image */}
+        <div className="about-image">
+          <img src={myImage} alt="About Me" />
         </div>
       </div>
     </section>

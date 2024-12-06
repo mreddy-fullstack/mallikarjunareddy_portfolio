@@ -1,26 +1,74 @@
+/* General Styling */
 .projects {
-    margin: 20px 0;
-    padding: 20px;
-    /* background-color: #e3f2fd; */
-    border-radius: 8px;
+  padding: 20px 60px; /* Adjusted padding for consistent alignment with other sections */
+  max-width: 100%;
+  margin: auto;
+  text-align: left;
+}
+
+.projects h2 {
+  font-size: 2rem; /* Section title size */
+  color: #4a148c; /* Dark gray-blue for the section title */
+  margin-bottom: 20px;
+  margin-left: 10px; /* Forward adjustment for alignment */
+  border-left: 5px solid #1abc9c; /* Highlighted left border for section title */
+  padding-left: 15px;
+}
+
+/* Project List Styling */
+.project-list {
+  width: 95%; /* Utilize full screen width */
+  margin: 0 auto;
+  margin-left: 10px; /* Forward adjustment for alignment */
+}
+
+.project-item {
+  margin-bottom: 20px; /* Spacing between projects */
+  cursor: pointer;
+}
+
+.project-title {
+  font-size: 1.4rem; /* Project name size */
+  font-weight: bold;
+  color: yellowgreen; /* Darker blue-gray for project names */
+  margin-left: 15px; /* Forward adjustment for alignment */
+}
+
+.project-title:hover {
+  color: #1abc9c; /* Green for hover effect */
+}
+
+.project-details {
+  font-size: 1rem; /* Bullet points size */
+  color:pink; /* Gray for details text */
+  margin-left: 30px; /* Increased indent to align with project titles */
+  line-height: 1.6; /* Adjusted line height for better readability */
+  padding-left: 20px;
+  list-style-type: disc; /* Bullet points */
+}
+
+.project-details li {
+  margin-bottom: 8px; /* Space between each bullet point */
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .projects {
+    padding: 15px;
   }
-  
+
   .projects h2 {
-    font-size: 1.8em;
-    color: #333;
+    font-size: 1.8rem;
+    margin-left: 5px;
   }
-  
-  .projects ul {
-    list-style-type: none;
-    padding: 0;
+
+  .project-title {
+    font-size: 1.2rem;
+    margin-left: 10px;
   }
-  
-  .projects li {
-    margin: 8px 0;
-    padding: 10px;
-    background-color: #bbdefb;
-    border-radius: 5px;
-    font-size: 1em;
-    color: #333;
+
+  .project-details {
+    font-size: 0.9rem;
+    margin-left: 20px;
   }
-  
+}

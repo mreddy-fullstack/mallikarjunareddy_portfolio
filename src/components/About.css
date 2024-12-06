@@ -6,46 +6,36 @@
   border-radius: 12px;
 }
 
+/* Main Container */
 .about-container {
   display: flex;
-  /* justify-content: space-between; */
-  gap: 10px;
+  gap: 20px;
   align-items: center;
 }
 
-.about-image {
-  flex: 1;
-  min-width: 250px;
-  height: 570px;
-  text-align: center;
-}
-
-.about-image img {
-  max-width: 100%;
-  height: auto;
-  border-radius: 10px; /* Rounded corners for image */
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
-}
-
+/* Content Section */
 .about-content {
   flex: 2;
   min-width: 300px;
-  padding: 30px;
-  border-radius: 8px;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  padding: 20px;
   text-align: left;
+
+  /* Adjust content alignment */
+  margin-left: -20px; /* Move content slightly back */
 }
 
 .about-content h2 {
   font-size: 2rem;
-  color: purple; /* Dark text color */
+  color: #4a148c; /* Dark purple for the title */
   margin-bottom: 20px;
+  border-bottom: 2px solid #4caf50; /* Underline for emphasis */
+  display: inline-block;
 }
 
 .about-content p {
   font-size: 1.1rem;
-  color: yellowgreen; /* Lighter text color */
-  line-height: 1.6;
+  color: #333; /* Neutral gray for better readability */
+  line-height: 1.8;
   margin-bottom: 20px;
 }
 
@@ -53,6 +43,7 @@
   font-size: 1.6rem;
   color: #333;
   margin-top: 30px;
+  margin-bottom: 15px;
 }
 
 .about-content ul {
@@ -66,7 +57,22 @@
 }
 
 .about-content ul li strong {
-  color: sandybrown; /* Highlight skills with a blue color */
+  color: #d2691e; /* Sandy brown for highlighting skills */
+}
+
+/* Image Section */
+.about-image {
+  flex: 1;
+  min-width: 250px;
+  height: auto;
+  text-align: center;
+}
+
+.about-image img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
 }
 
 /* Responsive Design for Smaller Screens */
@@ -76,12 +82,12 @@
     align-items: center;
   }
 
-  .about-image {
-    margin-bottom: 1px;
+  .about-content {
+    margin-left: 0; /* Remove the negative margin for smaller screens */
+    text-align: center;
   }
 
-  .about-content {
-    min-width: 100%;
-    padding: 15px;
+  .about-image {
+    margin-top: 20px;
   }
 }
