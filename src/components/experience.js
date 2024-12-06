@@ -20,7 +20,7 @@ const Experience = () => {
         </button>
         {activeSection === 'internship' && (
           <div className="accordion-content">
-            <h3>Java Full Stack Developer Internship</h3>
+            <h3>Software Developer Traineeship</h3>
             <p>Feb 2024 – Jul 2024 | Numetry Technologies</p>
             <ul>
               <li>Developed dynamic and responsive web applications using React.js and Spring Boot.</li>
@@ -43,7 +43,7 @@ const Experience = () => {
         {activeSection === 'course' && (
           <div className="accordion-content">
             <h3>JSpiders-Marathahalli</h3>
-            <p>Completed Mar 2024</p>
+            <p>Completed Sep - 2023</p>
             <ul>
               <li>Comprehensive training in Java, Spring, Hibernate, and React.js.</li>
               <li>Hands-on projects, including an online shopping platform and an employee management system.</li>

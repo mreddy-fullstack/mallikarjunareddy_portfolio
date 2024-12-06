@@ -30,7 +30,7 @@
 .project-title {
   font-size: 1.4rem; /* Project name size */
   font-weight: bold;
-  color: yellowgreen; /* Darker blue-gray for project names */
+  color: black; /* Darker blue-gray for project names */
   margin-left: 15px; /* Forward adjustment for alignment */
 }
 
@@ -40,7 +40,7 @@
 
 .project-details {
   font-size: 1rem; /* Bullet points size */
-  color:pink; /* Gray for details text */
+  color:orange; /* Gray for details text */
   margin-left: 30px; /* Increased indent to align with project titles */
   line-height: 1.6; /* Adjusted line height for better readability */
   padding-left: 20px;

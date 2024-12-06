@@ -27,10 +27,6 @@
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
 }
 
-.skills-column ul {
-  list-style-type: none;
-  padding-left: 0;
-}
 
 .skills-column li {
   font-size: 1.1rem;
@@ -51,3 +47,19 @@
     padding: 15px;
   }
 }
+
+
+/* Grid Layout for Skills */
+.skills-grid {
+  display: flex;
+  justify-content: space-between;
+  gap: 40px;
+}
+
+
+.skills-column ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+

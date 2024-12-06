@@ -1,36 +1,35 @@
 import React from 'react';
 import './About.css';
-import myImage from '../assets/profile.jpg'; // Update the path to your image location
+import myImage from '../assets/profile.jpg'; // Update with the correct path to your image
 
 const About = () => {
   return (
     <section className="about">
       <div className="about-container">
-        {/* Left side: Content */}
+        {/* Left Side: Content */}
         <div className="about-content">
           <h2>About Me</h2>
           <p>
-            I am a passionate and skilled <strong>Full Stack Developer</strong> with experience in both front-end and back-end development. I specialize in creating dynamic, responsive, and user-friendly web applications. I thrive in building intuitive user interfaces and robust back-end systems.
+            I am a <strong>Java Full Stack Developer</strong> with a strong foundation in both front-end and back-end technologies. I have successfully completed a comprehensive full-stack development course, where I mastered <strong>Java</strong>, <strong>HTML</strong>, <strong>CSS</strong>, <strong>JavaScript</strong>, <strong>SQL</strong>, and the <strong>Spring Framework</strong>.
           </p>
-
-          {/* Skills Section */}
-          <h3>Skills</h3>
+          <p>
+            My skills were further enhanced during my internship, where I worked on real-world projects and gained expertise in:
+          </p>
           <ul>
-            <li><strong>HTML5</strong> - Crafting the structure of web pages</li>
-            <li><strong>CSS3</strong> - Styling responsive layouts</li>
-            <li><strong>JavaScript</strong> - Adding interactive elements</li>
-            <li><strong>React.js</strong> - Building modern, dynamic UIs</li>
-            <li><strong>Java</strong> - Server-side development</li>
-            <li><strong>Spring Boot</strong> - Java framework for building applications</li>
-            <li><strong>SQL</strong> - Database management and queries</li>
-            <li><strong>Postman</strong> - API testing tool</li>
-            <li><strong>Git/GitHub</strong> - Version control for code collaboration</li>
+            <li>Building <strong>RESTful API applications</strong> with robust back-end logic.</li>
+            <li>Using <strong>Postman</strong> for API testing and reliability checks.</li>
+            <li>Version control and collaboration with <strong>GitHub</strong>.</li>
+            <li>Creating dynamic interfaces with <strong>React.js</strong>.</li>
+            <li>Implementing <strong>CI/CD pipelines</strong> for seamless application deployment.</li>
           </ul>
+          <p>
+            I am passionate about developing innovative, user-centric solutions and thrive in collaborative environments where I can contribute to building scalable and efficient applications.
+          </p>
         </div>
 
-        {/* Right side: Image */}
+        {/* Right Side: Image */}
         <div className="about-image">
-          <img src={myImage} alt="About Me" />
+          <img src={myImage} alt="Profile" />
         </div>
       </div>
     </section>
