@@ -16,7 +16,7 @@ const Header = () => {
           <a href="https://www.linkedin.com/in/mallikarjuna-reddy-chitiki-69a09a327/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
         </li>
         <li>
-          <a href="https://github.com/mreddy-fullstack" target="_blank" rel="noopener noreferrer">GitHub</a>
+          <a href="https://github.com/mreddy-fullstack" target="_blank" rel="noopener noreferrer">Git Hub</a>
         </li>
         <li>
           <a href="mailto:mallikarjunareddy8890@example.com">Email</a>
