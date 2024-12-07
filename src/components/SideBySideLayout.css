@@ -2,19 +2,17 @@
     display: flex;
     flex-wrap: nowrap;
     justify-content: space-between;
-    margin: 20px;
+    margin: 10px;
   }
   
   .left-panel,
   .right-panel {
-    width: 45%;
+    width: 100%;
   }
   
   .content-display {
     margin-top: 20px;
     padding: 10px;
-    border: 1px solid #ddd;
-    background-color: #f9f9f9;
     font-size: 16px;
   }
   
