@@ -3,36 +3,27 @@ import './Projects.css';
 
 const projectsData = [
   {
-    title: 'Online Shopping Platform',
+    title: 'Frequency Synthesizer',
     details: [
-      'Developed a responsive shopping platform with React for the front-end.',
-      'Implemented secure payment gateways and user authentication features.',
-      'Utilized Spring Boot for back-end services and MySQL for database management.',
+      'Designed an electronic frequency generation circuit for controlled RF signal applications.',
+      'Worked on frequency control, analog/RF circuit stages, and signal stability.',
+      'Validated the design through schematic development, simulation, and prototype testing.',
     ],
   },
   {
-    title: 'College Directory Application',
+    title: 'Battery Management System / SMPS',
     details: [
-      'Created a directory for colleges with advanced search functionality.',
-      'Displayed detailed information about courses, faculty, and infrastructure.',
-      'Ensured responsiveness and accessibility across all devices.',
+      'Developed battery management and switched-mode power supply concepts for reliable power delivery.',
+      'Reviewed voltage regulation, protection, efficiency, and thermal considerations.',
+      'Created schematics, prepared BOM documentation, and supported prototype assembly and testing.',
     ],
   },
   {
-    title: 'Employee Management System',
+    title: 'Programmable DC Power Supply Module',
     details: [
-      'Designed a system to manage employee records and payroll processing.',
-      'Generated automated performance reports using React and MySQL.',
-      'Focused on scalability and user-friendly design.',
-    ],
-  },
-  {
-    title: 'Online Tutoring',
-    details: [
-      'Designed user-friendly interfaces using React.js, HTML, and CSS.',
-      'Implemented back-end services with Spring Boot for user and session management.',
-      'Integrated third-party APIs for payments and live video sessions.',
-      'Ensured responsive design and cross-browser compatibility.',
+      'Designed a DC power module with selectable output levels for 13 V and 18 V operation.',
+      'Included switchable output selection based on user requirements and application load.',
+      'Used circuit simulation and small board prototyping to verify output behavior and reliability.',
     ],
   },
 ];

@@ -10,20 +10,21 @@ const About = () => {
         <div className="about-content">
           <h2>About Me</h2>
           <p>
-            I am a <strong>Java Full Stack Developer</strong> with a strong foundation in both front-end and back-end technologies. I have successfully completed a comprehensive full-stack development course, where I mastered <strong>Java</strong>, <strong>HTML</strong>, <strong>CSS</strong>, <strong>JavaScript</strong>, <strong>SQL</strong>, and the <strong>Spring Framework</strong>.
+            I am an <strong>Embedded Hardware Engineer</strong> working in analog circuit design and RF signal circuit design. Since September 2025, I have been building my experience at <strong>Quantica Technologies Pvt Ltd</strong>, with a focus on reliable hardware design and signal performance.
           </p>
           <p>
-            My skills were further enhanced during my internship, where I worked on real-world projects and gained expertise in:
+            My engineering approach combines practical circuit design, component selection, simulation, and hands-on testing. My experience includes:
           </p>
           <ul>
-            <li>Building <strong>RESTful API applications</strong> with robust back-end logic.</li>
-            <li>Using <strong>Postman</strong> for API testing and reliability checks.</li>
-            <li>Version control and collaboration with <strong>GitHub</strong>.</li>
-            <li>Creating dynamic interfaces with <strong>React.js</strong>.</li>
-            <li>Implementing <strong>CI/CD pipelines</strong> for seamless application deployment.</li>
+            <li>Analog circuit design and hardware implementation.</li>
+            <li>RF signal circuit design and analysis.</li>
+            <li>Power supply and battery management circuit development.</li>
+            <li>Circuit testing, troubleshooting, and validation.</li>
+            <li>BOM preparation and component selection for prototypes.</li>
+            <li>PCB prototyping, soldering, and in-circuit testing.</li>
           </ul>
           <p>
-            I am passionate about developing innovative, user-centric solutions and thrive in collaborative environments where I can contribute to building scalable and efficient applications.
+            I am passionate about designing dependable embedded hardware and continuously improving my expertise in analog and RF electronics.
           </p>
         </div>
 

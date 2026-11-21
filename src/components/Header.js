@@ -7,7 +7,7 @@ const Header = () => {
       {/* Left side: Name and Title */}
       <div className="header-info">
         <h1>Mallikarjuna Reddy Chitiki</h1>
-        <p>Full Stack Developer | React & Spring Boot Enthusiast</p>
+        <p>Embedded Hardware Engineer | Analog & RF Circuit Design</p>
       </div>
 
       {/* Right side: Contact List */}
@@ -16,7 +16,7 @@ const Header = () => {
           <a href="https://www.linkedin.com/in/mallikarjuna-reddy-chitiki-69a09a327/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
         </li>
         <li>
-          <a href="https://github.com/mreddy-fullstack" target="_blank" rel="noopener noreferrer">Git Hub</a>
+          <a href="https://github.com/mreddy-fullstack" target="_blank" rel="noopener noreferrer">GitHub</a>
         </li>
         <li>
           <a href="mailto:mallikarjunareddy8890@example.com">Email</a>
